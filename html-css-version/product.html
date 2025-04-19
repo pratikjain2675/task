@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - Modern Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Modern<span>Home</span></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="product-detail">
+        <div class="container">
+            <div class="product-gallery">
+                <div class="main-image">
+                    <img id="main-image" src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Nordic Chair">
+                </div>
+                <div class="thumbnail-images">
+                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Nordic Chair" class="active">
+                    <img src="https://images.unsplash.com/photo-1517705008128-361805f42e86?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Nordic Chair angle view">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Nordic Chair in room">
+                    <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Nordic Chair detail">
+                </div>
+            </div>
+            <div class="product-info">
+                <h1>Nordic Lounge Chair</h1>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(42 reviews)</span>
+                </div>
+                <p class="price">$349.99</p>
+                <p class="description">Inspired by Scandinavian design principles, this lounge chair combines minimalist aesthetics with exceptional comfort. Perfect for reading nooks or as an accent piece in your living room.</p>
+                
+                <div class="product-specs">
+                    <h3>Specifications</h3>
+                    <ul>
+                        <li><strong>Material:</strong> Solid oak frame, wool upholstery</li>
+                        <li><strong>Dimensions:</strong> 28" W x 32" D x 30" H</li>
+                        <li><strong>Weight:</strong> 22 lbs</li>
+                        <li><strong>Color:</strong> Natural oak / Gray wool</li>
+                        <li><strong>Assembly:</strong> Required (tools included)</li>
+                    </ul>
+                </div>
+
+                <div class="product-actions">
+                    <div class="quantity">
+                        <button class="qty-minus">-</button>
+                        <input type="number" value="1" min="1">
+                        <button class="qty-plus">+</button>
+                    </div>
+                    <button class="btn add-to-cart">Add to Cart</button>
+                    <button class="btn btn-outline buy-now">Buy Now</button>
+                </div>
+
+                <div class="product-meta">
+                    <p><i class="fas fa-truck"></i> Free shipping on orders over $50</p>
+                    <p><i class="fas fa-undo"></i> 30-day return policy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="related-products">
+        <div class="container">
+            <h2>You May Also Like</h2>
+            <div class="product-grid">
+                <!-- Related products will be loaded via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>ModernHome</h3>
+                    <p>Bringing beautiful design to everyday living since 2010.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="shop.html?category=furniture">Furniture</a></li>
+                        <li><a href="shop.html?category=lighting">Lighting</a></li>
+                        <li><a href="shop.html?category=art">Art</a></li>
+                        <li><a href="shop.html?category=plants">Plants</a></li>
+                        <li><a href="shop.html">All Products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Design St, New York</li>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> hello@modernhome.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 ModernHome. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
